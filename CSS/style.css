@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body{
+    font-family: 'Noto Serif JP';
+    color: #39393B;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+
+
+/* 背景画像 */
+.wrapper {
+   margin: 0 auto;
+   max-width: 1100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../images/fv.jpg);
+  background-color: rgba(0, 0, 0, 0.54);
+  background-blend-mode: darken;
+  height: 100vh;
+  max-width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.logo {
+  height: 250.4px;
+  width: 320px;
+}
+
+.bg_text {
+  font-family: 'Noto Serif JP';
+  margin-top: 49.6px;
+  font-size: 32px;
+  color: #fff;
+  line-height: 1.2;
+  letter-spacing: 0.18em;
+}
+
+.nav_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 4%;
+  padding-top: 4%;
+  font-size: 24px;
+}
+
+.sns_icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 4%;
+  padding-top: 4%;
+  font-size: 24px;
+}
+
+.nav_header {
+  position: absolute;
+  bottom: 0;
+  font-size: 36px;
+  padding-bottom: 4%;
+}
+
+/* コンセプト */
+.concept_img {
+  width: 840px;
+  height: 420px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.concept_text {
+  width: 450px;
+}
+
+#concept {
+  display: flex;
+  height: 100%;
+}
+
+.concept {
+  align-self: center;
+  margin-left: 120px;
+}
+
+
+h6 {
+  font-size: 14px;
+  letter-spacing: 0.28em;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 36px;
+  letter-spacing: 0.22em;
+  line-height: 1.4;
+  padding-bottom: 50px;
+}
+
+p {
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 14px;
+  line-height: 2.2;
+}
+
+/* メニュー */
+.menu {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 203px;
+  padding-bottom: 100px;
+}
+
+.menu_text {
+  width: 450px;
+}
+.menu_img {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.menu_card {
+  width:862px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card_img {
+  width: 350px;
+  margin-bottom: 100px;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'Libre Baskerville';
+  margin-bottom: 8px;
+  letter-spacing: 0.18em;
+}
+
+h5 {
+  font-size: 12px;
+  font-family: 'Noto Serif JP';
+  margin-bottom: 22px;
+  letter-spacing: 0.18em;
+}
+
+.card_body {
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+.size_price {
+  width: 118px;
+  height: 74px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.size {
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Helvetica';
+} 
+.price {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Helvetica';
+}
+
+/* カスタマイズ */
+.customize {
+  width: 960px;
+  margin: 0 auto 178px;
+}
+
+.customize_title {
+  margin-bottom: 20px;
+  margin-top: 4px;
+  letter-spacing: 0.28em;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+.customize_line {
+  background-size: 6px 1px;
+  background-image: linear-gradient(to right, #39393B, #39393B 1px, transparent 1px, transparent 6px);
+  background-repeat: repeat-x;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.customize_content {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  line-height: 2.8;
+  text-align: center;
+}
+
+hr {
+  width: 240px;
+  margin-bottom: 24px;
+}
+
+li {
+  list-style: none;
+  margin: 0 auto 24px;
+  width: 124px;
+  
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 14px;
+  text-align: left;
+}
+
+/* アクセス */
+.access {
+  text-align: center;
+}
+
+.access_title {
+  margin-bottom: 15px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  letter-spacing: 0.28em;
+  line-height: 1.2;
+}
+
+#location {
+  margin-bottom: 103px;
+  display: flex;
+}
+
+.location_info {
+   background-color: #39393B;
+   width: 480px;
+   height: 436px;
+   color: #fff;
+   text-align: left;
+   font-family: 'Hiragino Kaku Gothic ProN';
+   font-size: 14px;
+   line-height: 1.6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.location_address {
+  width: 276px;
+}
+
+/* ニュース */
+
+#news {
+  max-width: 960px;
+  margin: 0 auto 100px;
+}
+
+.news_title {
+  margin-bottom: 15px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  letter-spacing: 0.28em;
+  line-height: 1.2;
+}
+
+.news_img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 40px;
+}
+
+.news_line {
+  height: 1px;
+  position: relative;
+  background-size: 6px 1px;
+  background-image: linear-gradient(to right, #39393B, #39393B 1px, transparent 1px, transparent 6px);
+  background-repeat: repeat-x;
+}
+
+.news_line::before {
+  content: "";
+  background-size: 6px 1px;
+  background-image: linear-gradient(to right, #39393B, #39393B 1px, transparent 1px, transparent 6px);
+  background-repeat: repeat-x;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.news_box {
+  display: flex;
+  margin: 40px 0;
+}
+
+.date {
+  font-size: 14px;
+  font-family: 'Helvetica';
+}
+
+.news_text {
+  font-size: 18px;
+  font-family: 'Hiragino Kaku Gothic ProN W6';
+}
+
+.news_button {
+  display: inline-block;
+  background-color: #EA8E03;
+  color: #fff;
+  width: 94px;
+  height: 18px;
+  font-size: 10px;
+  margin-left: 23px;
+  padding-left: 12px;
+}
+
+/* フッター */
+footer {
+  background-color: #39393B;
+  height: 404px;
+}
+
+.footer_logo {
+   width: 200px;
+   height: 156.5px;
+   text-align: center;
+   margin-bottom: 43.5px;
+   margin-top: 60px;
+}
+
+nav {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Helvetica';
+  margin-bottom: 60px;
+}
+
+.footer_text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Libre Baskerville';
+  font-size: 14px;
+  margin-bottom: 51px;
+}
+
+@media (max-width: 600px) {
+  .concept_img {
+    width: 355px;
+    object-fit: cover;
+  }
+}
