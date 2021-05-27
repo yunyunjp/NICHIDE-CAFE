@@ -2,8 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NICHIDE CAFE</title>
+
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
@@ -37,24 +38,26 @@
           <i class="far fa-circle fa-stack-1x" style="color: #fff;"></i> 
         </span>
   </header>
-  <div id="concept">
+
+  <section id="concept">
     <img class="concept_img" src="images/concept.jpg">
     <div class="concept">
       <h6>Concept</h6>
       <h3>コンセプト</h3>
       <p class="concept_text">NICHIDE CAFE は博多駅から徒歩10分のところにあるカフェです。木を基調にした開放的な店内でゆったりとお過ごしいただけます。スタンダードなコーヒーから、こだわりのオリジナルコーヒーをお楽しみください。また氷の量や甘さなどを細かくお客様のお好みの味に変えることができます。</p>
     </div>
-  </div>
+  </section>
+
   <div class="menu">
     <div class="menu_text">
       <h6>Menu</h6>
       <h3>当店のメニュー</h3>
-      <p>バリスタが丁寧に抽出したエスプレッソドリンクや、オリジナルコーヒーをご提供しています。一年を通して様々なフレーバーが楽しめます。</p>
-    </div>  
+      <p>バリスタが丁寧に抽出したエスプレッソドリンクや、オリジナルコーヒーをご提供しています。一年を通して様々なフレーバーが楽しめます。</p>
+    </div>
   </div>
 
-  <div class="menu_card">
-    <div class="card_img">
+  <section class="grid">
+    <div class="item">
       <img class="menu_img" src="images/menu1.jpg">
         <h4>Blended Coffee</h4>
         <h5>ブレンドコーヒー</h5>
@@ -69,7 +72,7 @@
         </div>
       </div>
     </div>
-    <div class="card_img">
+    <div class="item">
       <img class="menu_img" src="images/menu2.jpg">
         <h4>Cappuccino</h4>
         <h5>カプチーノ</h5>
@@ -84,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="card_img">
+    <div class="item">
       <img class="menu_img" src="images/menu3.jpg">
         <h4>Cafe Latte</h4>
         <h5>カフェラテ</h5>
@@ -99,7 +102,7 @@
         </div>
       </div>
     </div>
-    <div class="card_img">
+    <div class="item">
       <img class="menu_img" src="images/menu4.jpg">
         <h4>Frappuccino</h4>
         <h5>フラペチーノ</h5>
@@ -114,41 +117,41 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="customize">
+    <div class="customize_title">Customize</div>
+      <div class="customize_line">
+          <div class="customize_menu">
+            <p class="customize_content">甘さ</p>
+            <hr>
+            <img class="sweetness_img" src="images/sweetness.svg">
+          </div>
+          <div class="customize_menu">
+            <p class="customize_content">氷</p>
+            <hr>
+            <img class="ice_img" src="images/ice.svg">
+          </div>
+          <div class="customize_menu">
+            <p class="customize_content">トッピング</p>
+            <hr>
+              <ul>
+                <li>・ホイップクリーム</li>
+                <li>・アイスクリーム</li>
+                <li>・マシュマロ</li>
+              </ul>
+          </div>
+      </div>
+  </section>  
+
+  <div class="access">
+    <p class="access_title">Access</p>
+    <h3>店舗へのアクセス</h3>
   </div>
-
-    <div class="customize">
-      <div class="customize_title">Customize</div>
-        <div class="customize_line">
-            <div class="customize_menu">
-              <p class="customize_content">甘さ</p>
-              <hr>
-              <img class="sweetness_img" src="images/sweetness.svg">
-            </div>
-            <div class="customize_menu">
-              <p class="customize_content">氷</p>
-              <hr>
-              <img class="ice_img" src="images/ice.svg">
-            </div>
-            <div class="customize_menu">
-              <p class="customize_content">トッピング</p>
-              <hr>
-                <ul>
-                  <li>・ホイップクリーム</li>
-                  <li>・アイスクリーム</li>
-                  <li>・マシュマロ</li>
-                </ul>
-            </div>
-        </div>
-    </div>  
-
-    <div class="access">
-      <p class="access_title">Access</p>
-      <h3>店舗へのアクセス</h3>
-    </div>
         
   <section id="location">
     <div class="location-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.804782976646!2d130.4177253155745!3d33.584417549684666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191ba18b7820d%3A0x28fa21165e2100a5!2z44CSODEyLTAwMTEg56aP5bKh55yM56aP5bKh5biC5Y2a5aSa5Yy65Y2a5aSa6aeF5YmN77yU5LiB55uu77yR77yY4oiS77yW!5e0!3m2!1sja!2sjp!4v1622079303046!5m2!1sja!2sjp" width="1440" height="436" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.804782976646!2d130.4177253155745!3d33.584417549684666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191ba18b7820d%3A0x28fa21165e2100a5!2z44CSODEyLTAwMTEg56aP5bKh55yM56aP5bKh5biC5Y2a5aSa5Yy65Y2a5aSa6aeF5YmN77yU5LiB55uu77yR77yY4oiS77yW!5e0!3m2!1sja!2sjp!4v1622079303046!5m2!1sja!2sjp" width="1440" height="436" style="border:0;" allowfullscreen></iframe>
     </div>
     <div class="location_info">
       <div class="location_address">
