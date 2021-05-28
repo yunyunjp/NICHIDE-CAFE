@@ -72,6 +72,11 @@ img {
 }
 
 /* コンセプト */
+#concept {
+  display: flex;
+  height: 100%;
+}
+
 .concept_img {
   width: 840px;
   height: 420px;
@@ -80,20 +85,14 @@ img {
   border-bottom-right-radius: 10px;
 }
 
+.concept {
+  align-self: center;
+  padding-left: 120px;
+}
+
 .concept_text {
   width: 450px;
 }
-
-#concept {
-  display: flex;
-  height: 100%;
-}
-
-.concept {
-  align-self: center;
-  margin-left: 120px;
-}
-
 
 h6 {
   font-size: 14px;
@@ -116,7 +115,7 @@ p {
 }
 
 /* メニュー */
-.menu {
+#menu {
   width: 960px;
   margin: 0 auto;
   padding-top: 203px;
@@ -127,7 +126,7 @@ p {
   width: 450px;
 }
 
-.item_wrapper {
+#menu_wrapper {
   width: 830px;
   margin: 0 auto;
   display: flex;
@@ -137,13 +136,12 @@ p {
 }
 
 .item {
-  width: calc((100% - 130px) / 2);
+  min-width: calc((100% - 130px) / 2);
   margin-bottom: 100px;
 }
 
 .menu_img {
-  max-width: 350px;
-  max-height: 350px;
+  width: 350px;
   border-radius: 10px;
   margin-bottom: 25px;
 }
@@ -236,7 +234,7 @@ li {
 }
 
 /* アクセス */
-.access {
+#access {
   text-align: center;
 }
 
@@ -394,32 +392,56 @@ nav {
     margin-bottom: 40px;
   }
 
+  .logo {
+    width: 200px;
+  }
+
+  .bg_text {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
   /* コンセプト */
   #concept {
     display: flex;
     flex-direction: column;
   }
+
+  .concept_img {
+    width: 100%;
+  }
+
   .concept {
     margin-top: 43px;
-    margin-left: 0;
+    padding: 0 5%;
+    
   }
-  .concept_img {
-     width: 100%;
+
+  .concept_text {
+    width: 100%;
   }
 
   /* メニュー */
-  .menu {
-    padding-left: 5%;
+  #menu {
+    width: 100px;
+    margin: 0 5%;
     padding-top: 103px;
     padding-bottom: 60px;
   }
 
-  .item_wrapper {
+  .menu_text {
+    width: 350%;
+  }
+  
+  #menu_wrapper {
+    width: 100%;
     flex-direction: column;
   }
 
   .item {
-    width: 42.2%;
     margin-bottom: 60px;
   }
   
@@ -428,7 +450,9 @@ nav {
     display: none;
   }
   /* アクセス */
-  .access {
+  #access {
+    padding: 0 5%;
+    text-align: left;
     margin-top: 43px;
   }
   #location {
@@ -446,7 +470,7 @@ nav {
   /* ニュース */
   #news {
     width: 100%;
-    padding: 0 4%;
+    padding: 0 5%;
   }
 
 }
